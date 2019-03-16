@@ -1,7 +1,8 @@
 # Rpi-huawei-setup
 Setup script to install Huawei ME909s-120 mPCIe modem on Raspberry Pi. I've connected modem thru cheap mpcie-to-USB adapter with SIM slot and stuck with usb_modeswitch *auto* mode (which should be disabled). Also script add up udev rules, so you can plug modem to any USB port each time.
 
-Script assumes PIN is disabled for the SIM-card auth.
+- Script assumes PIN is disabled for the SIM-card
+- Default APN set as "internet.beeline.ru"
 
 ## Installation
 ```
