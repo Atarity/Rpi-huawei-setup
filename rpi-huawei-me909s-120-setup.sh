@@ -44,5 +44,6 @@ iface lte0 inet dhcp
 EOT
 
 echo ""
-echo "   To connect and get IP run: sudo ifup -v lte0 "
+echo "   1. Disconnect modem from USB port and plug it back"
+echo "   2. To connect and get IP run: sudo ifup -v lte0 "
 echo ""
